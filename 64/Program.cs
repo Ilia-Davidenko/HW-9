@@ -3,9 +3,8 @@
 
 int firstNum = int.Parse(Console.ReadLine());
 int secondNum = int.Parse(Console.ReadLine());
-System.Console.WriteLine();
+Console.WriteLine();
 GetNumbers(firstNum, secondNum);
-//Console.WriteLine(GetNumbers);
 
 void GetNumbers(int m, int n)
 {
